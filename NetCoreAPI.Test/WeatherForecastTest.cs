@@ -23,7 +23,7 @@ namespace NetCoreAPI.Test
         public void GetReturnsAllWeatherForecasts()
         {
             IEnumerable<WeatherForecast> returnVal = controller.Get().ToList();
-            Assert.Equal(4, returnVal.Count());
+            Assert.Equal(5, returnVal.Count());
         }
     }
 }
