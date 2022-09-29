@@ -26,4 +26,4 @@ namespace NetCoreAPI.Test
             Assert.Equal(5, returnVal.Count());
         }
     }
-}s
+}
